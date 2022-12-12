@@ -1,0 +1,74 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+     /*######section heroImg css####*/
+.heroImg{
+	padding: 60px 0 105px;
+	background-color: #fcdb00;
+}
+.logo{
+	height: 48px;
+	display: inline-block;
+}
+.navbar ul{
+	display: inline-block;
+}
+.navbar li{                                                             /*alternate>> margin-right:35px* / >>*/ 
+	display: inline-block;                  /*method given by self*/                   /*.navbar li:last-child{ margin-right: 0;}*/
+}
+	/*OR*/
+	/*margin-right:35px;*/
+
+/*.navnar li:last-child{
+margin-right:0;	}*/             /*method given by sir*/
+
+.navbar li a{
+	padding: 0 18px;                           /* alternate >> padding :18px  >>then don't give margin here>*/
+	margin: 0 15px;
+	font-size:22px;
+	font-weight: bold;
+	color: #010101;
+	text-transform: capitalize;
+	height: 48px;
+	display: inline-block;
+	line-height: 48px;
+}
+.inspire{
+	padding-top: 70px; /*OR can give >> margin-top: 70px"*/
+}
+.brandLink li{
+	display: inline-block;
+}
+.brandLink li i{
+	font-size: 40px;
+	color: #010101;
+	margin-right: 40px;
+}
+
+/*##### features section css####*/
+
+.featureSection{
+	padding: 120px 0 70px;
+}
+
+/*####### footer section css######*/
+ .footer{
+	 padding: 90px 0 140px;
+	 background-color: #010101;
+ }
+.socialIcons li{
+	display: inline-block;
+	margin-right: 30px;
+}
+.socialIcons li i{
+	font-size: 35px;
+	color: #fcdb00;
+}
+.socialIcons{
+	margin-bottom:135px;
+}
+.margin-center{
+	margin: 0 auto;
+}
